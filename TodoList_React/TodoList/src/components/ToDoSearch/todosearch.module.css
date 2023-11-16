@@ -1,0 +1,64 @@
+.toDoSearch {
+  background: linear-gradient(
+    to right bottom,
+    hsla(0, 0%, 100%, 0.3),
+    hsla(0, 0%, 100%, 0.7)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+  color: #4d4d4d;
+  color: var(--color-text);
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  max-height: 89vh;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.toDoSearch label {
+  padding: 4px 8px;
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.containerBtn {
+  display: flex;
+}
+.title {
+  margin-left: 6px;
+  position: relative;
+}
+
+.containerBtn ul {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  top: 42px;
+  left: 0;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  list-style: none;
+}
+.containerBtn li {
+  padding: 4px 0;
+}
+.containerBtn li:hover {
+  background-color: #c6c6c6;
+}
+.emty {
+  background-color: blanchedalmond;
+  padding: 4px 6px;
+}
+.allTask {
+  margin-top: 10px;
+}

@@ -1,0 +1,21 @@
+.clock {
+    font-size: 30px;
+    background-color: orangered;
+    color: #fff;
+    text-align: center;
+    padding: 12px 30px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+@media screen and (max-width: 767px) {
+    /* Điều chỉnh kiểu hiển thị cho màn hình điện thoại */
+    /* Ví dụ: */
+    .clock {
+        font-size: 24px;
+        padding: 4px 12px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+.todoTask {
+  background: linear-gradient(
+    to right bottom,
+    hsla(0, 0%, 100%, 0.3),
+    hsla(0, 0%, 100%, 0.7)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+  color: #4d4d4d;
+  color: var(--color-text);
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.todoTask h1 {
+    text-align: center;
+    font-size: 44px;
+}
+.todoTask label {
+    padding: 4px 8px;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.toast {
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: slideRight ease-in .3s;
+  z-index: 100;
+  background-color: white;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  } to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

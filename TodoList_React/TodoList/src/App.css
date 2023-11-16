@@ -1,0 +1,11 @@
+.main {
+  background: url("https://nosleepguy.github.io/TodoList2/static/media/back-01.19e791ec.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+}
+h2#swal2-title {
+  font-size: 20px;
+}

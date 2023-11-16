@@ -1,0 +1,25 @@
+.todoDone {
+  background: linear-gradient(
+    to right bottom,
+    hsla(0, 0%, 100%, 0.3),
+    hsla(0, 0%, 100%, 0.7)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+  color: #4d4d4d;
+  color: var(--color-text);
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.taskTodo:hover {
+  opacity: 1 !important;
+}
